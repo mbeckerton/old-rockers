@@ -1,28 +1,63 @@
 @import url('https://fonts.googleapis.com/css?family=Days+One|Shrikhand');
 
+
+
 .content-block {
-   display:flex;
-    width:100%;
-   
+    display: flex;
+    width: 100%;
 }
+.content-block a{
+    color:white;
+}
+.block-content-width {
+    width: 50%;
+}
+.page-heading {
+    padding: 70px 0px 50px;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    font-size: 10em;
+    font-family: "Days one", sans-serif
+}
+p {
+    padding: 10px 0px 50px;
+    margin: 50px;
+    text-align: left;
+    color: white;
+    font-size: 1.5em;
+    font-family: "Days one", sans-serif
+}
+h2 {
+    padding-top: 10px;
+    padding-bottom: 0;
+    margin: 10px;
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+    font-family: "Days one", sans-serif
+}
+ 
+/* NAVIGATION STYLING */
+
 .nav {
     background-color: #000;
-    height:70px;
+    height: 70px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     position: fixed;
-    width:100%;
-     z-index: 1;
+    width: 100%;
+    z-index: 1;
 }
 .nav ul {
     text-align: center;
     padding-top: 20px;
-    margin:0;
+    margin: -13px;
 }
 .nav li {
     list-style: none;
-     display: inline-block;
+    display: inline-block;
 }
 .nav a {
     text-decoration: none;
@@ -31,34 +66,38 @@
 .nav a span:hover {
     color: #a7a894;
 }
-
-.main-image {
-    background-image: url("../images/rock-background.jpg");
-    height:600px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-	
-}
 .nav span {
-    display:block;
-   
-    font-size:20px;
-    padding-top:5px;
-    font-weight:100
-    letter-spacing:2px;
+    display: block;
+    font-size: 20px;
+    padding-top: 5px;
+    font-weight: 100 letter-spacing:2px;
     font-family: 'Days One', sans-serif;
     margin: 0px 20px 0px;
 }
-
+.main-image {
+    background-image: url("../images/rock-background.jpg");
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
 #logo {
     text-align: center;
-    margin: auto;
-    display:block;
-    position: relative;
-  top: 50%;
-  transform: translateY(-50%);
+    margin: 0 auto;
+    padding-top: 70px;
+    display: block;
     
+}
+
+/* STYLING FOR CONTENT */
+
+.img-block img {
+    padding:20px;
+    margin-left: 10px;
+}
+.img-block {
+    background-color: #5c6a82;
 }
 .about-block {
     background-image: url("../images/about.jpg");
@@ -66,11 +105,11 @@
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 361px;
-     border: 1px solid white;
+    border: 1px solid white;
 }
 .about {
-    background-color:#4c1300  ; 
-     border: 1px solid white;
+    background-color: #4c1300;
+    border: 1px solid white;
 }
 .wedding-block {
     background-image: url("../images/wedding.jpg");
@@ -78,11 +117,11 @@
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 361px;
-     border: 1px solid white;
+    border: 1px solid white;
 }
 .wedding {
-    background-color:#a7a894 ;
-     border: 1px solid white;
+    background-color: #a7a894;
+    border: 1px solid white;
 }
 .gallery-block {
     background-image: url("../images/gallery.jpg");
@@ -90,11 +129,11 @@
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 361px;
-     border: 1px solid white;
+    border: 1px solid white;
 }
 .gallery {
-    background-color:#5c6a82  ; 
-     border: 1px solid white;
+    background-color: #5c6a82;
+    border: 1px solid white;
 }
 .sample-block {
     background-image: url("../images/sample.jpg");
@@ -102,109 +141,121 @@
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 361px;
-     border: 1px solid white;
+    border: 1px solid white;
 }
 .sample {
-    background-color:#93906e  ; 
-     border: 1px solid white;
+    background-color: #93906e;
+    border: 1px solid white;
 }
-
+.form {
+    padding-top: 15px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+button {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: #4c1300;
+    color: #fafafa;
+}
+/* FOOTER CONTENT */
 .social {
     background-color: #000;
 }
- .social a i   {
-   
-  margin:70px 40px 0px;
+.social a i {
+    margin: 70px 40px 0px;
     font-size: 60px;
     line-height: 7px;
     text-align: left;
     color: #fff;
 }
 .social p {
-   text-align: right;
+    text-align: right;
     color: #fff;
 }
 .content-block-footer-right {
     width: 60%;
-  
 }
 .content-block-footer-left {
     width: 40%;
-   
 }
 
- p {
-    padding:10px 0px 50px;
-    margin: 50px;
-    text-align: left;
-    color:white;
-    font-size: 1.5em;
-    font-family: "Days one", sans-serif
+.fa-facebook:hover {
+    color: #3b5998;
 }
- h2 {
-    padding-top:10px;
-    padding-bottom: 0;
-    margin: 10px;
-    text-align: center;
-    color:white;
-    font-size: 1.5em;
-    font-family: "Days one", sans-serif
+.fa-twitter:hover {
+    color:#0084b4;
 }
-.block-content-width {
-    width:50%;
+.fa-youtube:hover {
+     color:#bb0000;
+}
+/* END OF FOOTER */
+
+
+body {
+    margin: 0;
+    padding: 0;
 }
 
-@media(max-width:992px){
+@media(max-width:992px) {
+    
+    h2,
+    p {
+        font-size: 1em;
+    }
+    .page-heading {
+        font-size: 50px;
+    }
     .block-content-width {
         width: 100%;
     }
-     .content-block-footer-left {
+    .content-block-footer-left {
         width: 100%;
     }
-     .content-block-footer-right  {
-          width: 100%;
+    .content-block-footer-right {
+        width: 100%;
         padding-bottom: 10px;
         text-align: center;
-     }
+    }
     .content-block {
-   display:inline;
-}
+        display: inline;
+    }
+    .content-block-main {
+        display: flex;
+    }
+    .main-image {
+        max-height: 300px;
+    }
+    #logo {
+        width: 100%;
+    }
+    .nav li {
+        display: block;
+        padding-top: 7px;
+    }
+    .nav {
+        height: 230px;
+        position: relative;
+    }
+    .nav ul {
+        padding: 0;
+    }
+    .nav span {
+        border-bottom: 1px solid #fff;
+        padding-bottom: 7px;
+        margin: 0;
+    }
+    .sample-block {
+       min-height: 0px;
+    }
+    .social p {
+        margin: 0px;
+        text-align: center
+    }
+    .social a i {
 
-h2, p {
-    font-size: 1em;
-}
-  .content-block-main {
-      display:flex;
-  }
-  .main-image {
-     max-height: 300px;
-  }
-  #logo {
-    width:100%;
-}
-.nav li {
-     display: block;
-     padding-top: 7px;
-}
-.nav {
-    height:230px;
-    position: relative;
-}
-.nav ul {
-    padding: 0;
-}
-.nav span {
-    border-bottom: 1px solid #fff;
-    padding-bottom: 7px;
-    margin:0;
-}
-.social p {
-    margin:0px;
-    text-align: center
-}
- .social a i   {
-   
-  margin:5px 20px 10px;
-   
-}
+        margin: 5px 20px 10px;
+
+    }
 }
