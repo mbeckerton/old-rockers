@@ -100,7 +100,7 @@ h2 {
     background-color: #5c6a82;
 }
 .about-block {
-    background-image: url("../images/about.jpg");
+    background-image: url("../old-rockers/images/about.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -112,7 +112,7 @@ h2 {
     border: 1px solid white;
 }
 .wedding-block {
-    background-image: url("../images/wedding.jpg");
+    background-image: url("../old-rockers/images/wedding.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -124,7 +124,7 @@ h2 {
     border: 1px solid white;
 }
 .gallery-block {
-    background-image: url("../images/gallery.jpg");
+    background-image: url("../old-rockers/images/gallery.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -136,7 +136,7 @@ h2 {
     border: 1px solid white;
 }
 .sample-block {
-    background-image: url("../images/sample.jpg");
+    background-image: url("../old-rockers/images/sample.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
