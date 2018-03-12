@@ -76,7 +76,7 @@ h2 {
 }
 .main-image {
     background-image: url("../images/rock-background.jpg");
-    height: 450px;
+    height: 257px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -224,9 +224,7 @@ body {
     .content-block-main {
         display: flex;
     }
-    .main-image {
-        max-height: 300px;
-    }
+    
     #logo {
         width: 100%;
     }
